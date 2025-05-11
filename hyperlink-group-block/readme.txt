@@ -3,8 +3,8 @@ Contributors:      kometschuh
 Donate link:       https://wordpress.org/support/plugin/hyperlink-group-block/reviews/?filter=5
 Tags:              block, hyperlink, link, gutenberg, anchor
 Requires at least: 5.6
-Tested up to:      6.7
-Stable tag:        2.0.1
+Tested up to:      6.8
+Stable tag:        2.0.2
 Requires PHP:      7.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -73,10 +73,13 @@ No, that is illegal and causes errors in the renderd HTML.
 1. Hyperlink Group Block to group Blocks with an hyperlink.
 2. Wrap Blocks with a link.
 3. Rendered HTML.
-4. Advanced Settings for rel, title and aria-label attributes
+4. Advanced Settings for rel, title and aria-label attributes.
 5. Transform Blocks into a group wrapped with an anchor tag
 
 == Changelog ==
+
+= 2.0.2 - May 11th 2025 =
+* Bugfix Escaping data
 
 = 2.0.1 - Jan 13th 2025 =
 * Support disable Force page reload with Query Loop
