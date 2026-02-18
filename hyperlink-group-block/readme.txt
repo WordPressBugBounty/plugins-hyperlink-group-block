@@ -4,7 +4,7 @@ Donate link:       https://wordpress.org/support/plugin/hyperlink-group-block/re
 Tags:              block, hyperlink, link, gutenberg, anchor
 Requires at least: 6.6
 Tested up to:      6.9
-Stable tag:        2.0.4
+Stable tag:        2.0.5
 Requires PHP:      7.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -24,7 +24,7 @@ It's also possible to group existing Blocks.
 Select the Blocks which should be grouped with a Hyperlink. The Block Toolbar will appear. Click on the Block icon and select the Hyperlink Block to transform the selected Blocks to an Hyperlink Block with some InnerBlocks.
 
 = Advanced =
-On the Advanced Tab set the link's [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel), [title](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) and [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label) attributes.
+On the Advanced Tab set the link's [target](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/target), [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel), [title](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) and [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label) attributes.
 
 = Features =
 * Wrap Blocks with a hyperlink
@@ -32,7 +32,7 @@ On the Advanced Tab set the link's [rel](https://developer.mozilla.org/en-US/doc
 * Transform Blocks into a group wrapped with an HTML anchor tag (&lt;a&gt;)
 * Set the link href attribute
 * Set rel, title and aria-label attributes
-* Option open in a new window
+* Option open in a new window and set tab name to open in the same tab
 * Set hover background color
 * Inner anchor elements are automatically deleted
 
@@ -73,10 +73,13 @@ No, that is illegal and causes errors in the renderd HTML.
 1. Hyperlink Group Block to group Blocks with an hyperlink.
 2. Wrap Blocks with a link.
 3. Rendered HTML.
-4. Advanced Settings for rel, title and aria-label attributes.
+4. Advanced Settings for link target, rel, title and aria-label attributes.
 5. Transform Blocks into a group wrapped with an anchor tag
 
 == Changelog ==
+
+= 2.0.5 - Feb 18th 2026 =
+* Set tab name to open link in the same tab
 
 = 2.0.4 - August 05th 2025 =
 * Update block.json's API version
